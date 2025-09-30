@@ -1,0 +1,43 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: lightblue;
+}
+a{
+    background-color: lightgreen;
+}
+.ti3{
+    background-color: thistle;
+}
+#ti2{
+    background-color: rgb(139, 189, 139);
+}
+p strong{
+    background-color: rgb(165, 110, 165);
+}
+h1, h2, h3, h4{
+    color: darkslateblue;
+}
+
+h1{
+  /* background-color: lightgray; */
+  width: 50%;
+  min-width: 400px;
+  height: 50px;
+  overflow: hidden;
+  margin: 100px 20px 200px 300px;
+  padding: 100px 20px 200px 3px;
+  /* border: solid;
+  border-color: lavender;
+  border-width: 5px; */
+  border-radius: 20px;
+  border:solid lavender 5px;
+  text-align: center;
+  background-image: url(./assets/gatto.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
